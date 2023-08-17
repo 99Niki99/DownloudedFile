@@ -1,0 +1,18 @@
+Database Interaction Microservice
+
+The Database Interaction Microservice is a lightweight solution designed to facilitate seamless communication between users and a database. This service acts as a bridge, allowing users to easily send and retrieve data from the database. Created primarily for testing purposes, this microservice is ideal for scenarios where quick and simple data interactions are required. Here's a brief overview of how to use this microservice:
+
+Usage Guide:
+
+Initializing the Microservice:
+To get started, deploy the microservice on your preferred server. Once deployed, the microservice is ready to handle data interactions.
+
+Sending Data to the Database:
+Use the provided API endpoint to send data to the database. Make a POST request to the endpoint with the data you wish to store. The microservice will process the request and store the data in the database.
+
+Retrieving Data from the Database:
+To retrieve data, make a GET request to the designated API endpoint. The microservice will fetch the requested data from the database and provide it in the response.
+
+This microservice is designed for testing purposes, making it perfect for experimenting with database interactions in a controlled environment. It offers a simple and straightforward way to send and receive data without the need for complex setup or configuration.
+
+By utilizing the Database Interaction Microservice, you can explore and understand how data flows between your application and the database, making it an invaluable tool for testing and development.
